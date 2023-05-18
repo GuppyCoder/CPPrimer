@@ -14,9 +14,11 @@ int main()
             else
             {
                 // reset count to 1. set currVal = val
+                std::cout << currVal << " occurs " << count << " time(s)." << std::endl;
                 count = 1;
                 currVal = val;
             }
         }
+        std::cout << currVal  << " occurs " << count << " times(s)." << std::endl;
     }
 }
